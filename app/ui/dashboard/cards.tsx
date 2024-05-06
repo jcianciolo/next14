@@ -24,6 +24,7 @@ export default async function CardWrapper() {
   return (
     <>
       {/* NOTE: comment in this code when you get to this point in the course */}
+      {/* This is a comment in my code! Hooray. I'm learning so much. I can't wait to build my own app. I'm going to be a pro in no time. */}
 
       <Card title="Collected" value={totalPaidInvoices} type="collected" />
       <Card title="Pending" value={totalPendingInvoices} type="pending" />
